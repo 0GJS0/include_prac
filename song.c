@@ -33,7 +33,7 @@ int main() {
                FILE* pFile=fopen("include.txt","w"); 
         }
         if(q==2){
-                FILE* pFile=fopen("include.txt","w");
+                FILE* pFile=fopen("include.txt","a");
         }
 while (1) {
 	printf("연주하고 싶은 음과 길이를  입력해주세요!(시간은 1000~4000) (C,D,E,F,G,A,B)\n 다 입력하셨다면 play를 입력해주세요!\n");
